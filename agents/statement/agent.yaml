@@ -1,0 +1,12 @@
+handle: "bank_statement"
+description: |
+  The `statement` agent can extract data from bank statements. This data can either be passed
+  in or looked up from the LLM's knowledge.
+
+  Example queries:
+    - what is the end balance at "..."
+
+  Tags: finance, bank, statement
+more_info_url: ""
+entry_point: main:agent
+public: false
